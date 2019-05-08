@@ -1,0 +1,15 @@
+server:
+  port: 4000
+spring: 
+  application: 
+    name: member-manager
+eureka:
+  client:
+    service-url: 
+      defaultZone: http://localhost:1000/eureka/
+  instance:
+    prefer-ip-address: true
+crowd: 
+  short:
+    message:
+      appCode: 61f2eaa3c43e42ad82c26fbbe1061311
